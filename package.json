@@ -1,0 +1,30 @@
+{
+  "name": "spiritriot-outgoing-webmentioner-service",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "true",
+    "build": "npm install",
+    "run": "node index.mjs",
+    "lint": "eslint",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkrehbiel/spiritriot-outgoing-webmentioner-service.git"
+  },
+  "author": "Thomas Krehbiel",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tkrehbiel/spiritriot-outgoing-webmentioner-service/issues"
+  },
+  "homepage": "https://github.com/tkrehbiel/spiritriot-outgoing-webmentioner-service#readme",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
